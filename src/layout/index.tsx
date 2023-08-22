@@ -11,7 +11,7 @@ const Layout = (props: ILayoutProps) => {
     return (
         <div className='relative min-h-screen'>
             {/* Header content */}
-            <div className='flex justify-center items-center fixed top-0 w-full z-50 p-4 bg-opacity-90 bg-gradient-to-b from-gray-800'><Header /></div>
+            <div className='flex justify-center items-center fixed top-0 w-full z-50 p-8 bg-opacity-90 bg-gradient-to-b from-gray-500'><Header /></div>
 
             {/* Main content */}
             <div className="pt-[height_of_header] z-10">
