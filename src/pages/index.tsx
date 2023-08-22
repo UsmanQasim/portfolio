@@ -1,15 +1,14 @@
-import Loading from '@/components/elements/loading'
-import CoverSection from '@/components/home/CoverSection'
-import TechStackSection from '@/components/home/TechStackSection'
+import CoverSection from '@/components/home/CoverSection';
+import TechStackSection from '@/components/home/TechStackSection';
+import Layout from '@/layout';
 
 const Main = () => {
   return (
-    <>
-      <Loading />
-      {/* <CoverSection /> */}
-      {/* <TechStackSection /> */}
-    </>
+    <Layout>
+      <CoverSection />
+      <TechStackSection />
+    </Layout>
   )
 }
 
-export default Main
+export default Main;
